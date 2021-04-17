@@ -1,0 +1,85 @@
+.menuContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuTrigger {
+  background: #ffffff;
+  border-radius: 90px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 6px;
+  box-shadow: 0px 4px 12px rgb(0 0 0 / 6%);
+  border: none;
+  vertical-align: middle;
+  transition: box-shadow 0.4s ease;
+  margin-left: auto; /* Strictly for positioning */
+}
+
+.menuTrigger:hover {
+  box-shadow: 0px 4px 12px rgb(0 0 0 / 6%);
+}
+
+.menuTrigger span {
+  font-weight: 700;
+  vertical-align: middle;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.menuTrigger image {
+  border-radius: 90px;
+  width: 4rem;
+  height: 4rem;
+}
+
+.menu {
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid var(--gray-40);
+  position: absolute;
+  top: 58px;
+  right: 0;
+  width: 300px;
+  box-shadow: 0px 4px 12px rgb(0 0 0 / 6%);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 280ms cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid var(--gray-40);
+}
+
+.menu li:last-child {
+  border-bottom: 0;
+}
+
+.menu li a:hover {
+  background-color: var(--gray-20);
+}
+
+.menu li a {
+  text-decoration: none;
+  color: var(--gray-80);
+  padding: 15px 20px;
+  display: block;
+  transition: background 480ms cubic-bezier(0.2, 1, 0.3, 1);
+}

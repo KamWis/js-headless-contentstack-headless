@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  color: #545454;
+  font-weight: 300;
+}
+
+.footer svg {
+  margin-left: 0.5rem;
+  max-width: 150px;
+  margin-top: 0.3rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

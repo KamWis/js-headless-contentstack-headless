@@ -1,0 +1,48 @@
+.meta.compact {
+  font-size: 0.875rem;
+}
+
+.meta {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.dot {
+  margin: 0 0.25rem;
+}
+
+.compact .metaLink {
+  text-decoration: none;
+}
+
+.metaLink {
+  text-decoration: underline;
+}
+
+.link {
+  margin: 0 0.25rem;
+  cursor: pointer;
+}
+
+.boldLink {
+  font-weight: 600;
+}
+
+.boldLink.metaLink {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .dot {
+    display: none;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .link.metaLink {
+    display: inline-block;
+  }
+}

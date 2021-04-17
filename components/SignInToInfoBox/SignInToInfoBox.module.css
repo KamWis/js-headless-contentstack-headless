@@ -1,0 +1,18 @@
+.container {
+  border: 1px solid var(--gray-40);
+  border-radius: 5px;
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.container span {
+  margin-bottom: 2px;
+}
+
+.commentIcon {
+  margin-right: 0.5rem;
+}

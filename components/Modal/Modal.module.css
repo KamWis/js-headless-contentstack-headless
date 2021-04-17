@@ -1,0 +1,50 @@
+.backdrop,
+.wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.backdrop {
+  z-index: 99;
+  background-color: black;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 480ms cubic-bezier(0.2, 1, 0.3, 1),
+    visibility 480ms cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.backdrop.active {
+  opacity: 0.4;
+  visibility: visible;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.container {
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  background-color: white;
+  padding: 1.75rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 480ms cubic-bezier(0.2, 1, 0.3, 1),
+    visibility 480ms cubic-bezier(0.2, 1, 0.3, 1);
+}

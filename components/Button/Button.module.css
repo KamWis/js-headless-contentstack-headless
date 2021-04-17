@@ -1,0 +1,55 @@
+.button {
+  border-radius: 4px;
+  padding: 0.625rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+  font-family: 'Barlow', sans-serif;
+}
+
+.button.disabled {
+  cursor: initial;
+  background-color: var(--gray-60);
+  color: white;
+  border-color: var(--gray-60);
+}
+
+.button.solid:hover {
+  background-color: black;
+}
+
+.button.outline:hover {
+  background-color: var(--gray-40);
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+.outline {
+  border: 1px solid var(--gray-40);
+  background: white;
+  color: black;
+}
+
+.solid {
+  border: 1px solid var(--main-blue);
+  background: var(--main-blue);
+  color: white;
+}
+
+.noBorder {
+  border: 0px;
+  background: white;
+  color: black;
+}
+
+.big {
+  font-size: 1.125rem;
+  padding: 0.75rem;
+}
+
+.fullWidth {
+  width: 100%;
+}

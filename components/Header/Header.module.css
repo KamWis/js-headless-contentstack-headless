@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+
+.header.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 0rem;
+  z-index: 98;
+}
+
+.holder {
+  width: 100%;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  max-width: 180px;
+  align-items: center;
+  display: flex;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.logo svg {
+  width: 100%;
+}
+
+.searchIcon {
+  margin-right: 0.55rem;
+  cursor: pointer;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+* + .button {
+  margin-left: 0.85rem;
+}
+
+.avatarButton {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  margin-left: 1.5rem;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.avatar image {
+  width: 100%;
+}
+
+.dropDownUserName {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 1rem;
+  text-align: center;
+}
+
+.submitSkillItem {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header.sticky {
+    padding: 1rem 1rem;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .submitSkillItem {
+    display: list-item;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .header.sticky {
+    padding: 1rem 1rem;
+  }
+}

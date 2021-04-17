@@ -1,0 +1,612 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210306.024120.18428.0.001.json",
+    "dumpEventTime": "2021-03-06T02:41:20Z",
+    "dumpEventTimeStamp": "1614994880293",
+    "processId": 18428,
+    "cwd": "/home/kamil/projects/futuretrap/packages/frontend",
+    "commandLine": [
+      "/home/kamil/.nvm/versions/node/v12.16.1/bin/node",
+      "/home/kamil/projects/futuretrap/packages/frontend/node_modules/.bin/next",
+      "dev"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "glibcVersionRuntime": "2.27",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.19.84-microsoft-standard",
+    "osVersion": "#1 SMP Wed Nov 13 11:44:37 UTC 2019",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 3544700,
+        "nice": 0,
+        "sys": 500300,
+        "idle": 880305900,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 1080800,
+        "nice": 0,
+        "sys": 194700,
+        "idle": 883231900,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4189700,
+        "nice": 0,
+        "sys": 488100,
+        "idle": 879750500,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 486400,
+        "nice": 0,
+        "sys": 92600,
+        "idle": 883939400,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4349700,
+        "nice": 0,
+        "sys": 499500,
+        "idle": 879578000,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 290900,
+        "nice": 0,
+        "sys": 88500,
+        "idle": 884124900,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4377000,
+        "nice": 0,
+        "sys": 464700,
+        "idle": 879598200,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 1498800,
+        "nice": 0,
+        "sys": 453700,
+        "idle": 882475800,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4496800,
+        "nice": 0,
+        "sys": 516400,
+        "idle": 879392800,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 698000,
+        "nice": 0,
+        "sys": 237000,
+        "idle": 883533400,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4243200,
+        "nice": 0,
+        "sys": 506100,
+        "idle": 879685700,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 833400,
+        "nice": 0,
+        "sys": 152800,
+        "idle": 883514300,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4474800,
+        "nice": 0,
+        "sys": 523500,
+        "idle": 879382600,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 884800,
+        "nice": 0,
+        "sys": 188900,
+        "idle": 883422300,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4306400,
+        "nice": 0,
+        "sys": 612900,
+        "idle": 879512900,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 517200,
+        "nice": 0,
+        "sys": 115700,
+        "idle": 883858100,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4364300,
+        "nice": 0,
+        "sys": 482500,
+        "idle": 879579200,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 428400,
+        "nice": 0,
+        "sys": 104000,
+        "idle": 883976700,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4086900,
+        "nice": 0,
+        "sys": 465900,
+        "idle": 879857600,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 880400,
+        "nice": 0,
+        "sys": 141700,
+        "idle": 883473400,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4324300,
+        "nice": 0,
+        "sys": 478600,
+        "idle": 879624500,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 651500,
+        "nice": 0,
+        "sys": 121600,
+        "idle": 883727500,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 4254300,
+        "nice": 0,
+        "sys": 479900,
+        "idle": 879686000,
+        "irq": 0
+      },
+      {
+        "model": "AMD Ryzen 9 3900X 12-Core Processor",
+        "speed": 3792,
+        "user": 506600,
+        "nice": 0,
+        "sys": 95300,
+        "idle": 883901400,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "eth0",
+        "internal": false,
+        "mac": "00:15:5d:d4:71:75",
+        "address": "172.28.54.208",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "eth0",
+        "internal": false,
+        "mac": "00:15:5d:d4:71:75",
+        "address": "fe80::215:5dff:fed4:7175",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 4
+      }
+    ],
+    "host": "DESKTOP-KGRBOET"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b278f5",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x00000000009f13ec",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b5da9e",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b5de19",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d0a765",
+      "symbol": " [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d0adf6",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d1760a",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d18515",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d1afcc",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce19bb",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x00000000010246ce",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    },
+    {
+      "pc": "0x00000000013a71b9",
+      "symbol": " [/home/kamil/.nvm/versions/node/v12.16.1/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2150862848,
+    "totalCommittedMemory": 2142979432,
+    "usedMemory": 2120968472,
+    "availableMemory": 69180928,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33088,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 24117248,
+        "committedMemory": 17387104,
+        "capacity": 12045744,
+        "used": 3168048,
+        "available": 8877696
+      },
+      "old_space": {
+        "memorySize": 1500135424,
+        "committedMemory": 1499264304,
+        "capacity": 1495193624,
+        "used": 1493888584,
+        "available": 1305040
+      },
+      "code_space": {
+        "memorySize": 2789376,
+        "committedMemory": 2736960,
+        "capacity": 2407392,
+        "used": 2407392,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 6819840,
+        "committedMemory": 6819160,
+        "capacity": 5425840,
+        "used": 5425840,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 616116224,
+        "committedMemory": 616116224,
+        "capacity": 615501256,
+        "used": 615501256,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 544544,
+        "used": 544544,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 12045744,
+        "used": 0,
+        "available": 12045744
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1002.59,
+    "kernelCpuSeconds": 76.2178,
+    "cpuConsumptionPercent": 2.24415,
+    "maxRss": 2376630272,
+    "pageFaults": {
+      "IORequired": 0,
+      "IONotRequired": 6879567
+    },
+    "fsActivity": {
+      "reads": 1040,
+      "writes": 3716312
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 253.623,
+    "kernelCpuSeconds": 40.01,
+    "cpuConsumptionPercent": 0.610819,
+    "fsActivity": {
+      "reads": 0,
+      "writes": 16
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "GITHUB_TOKEN": "3e13369620ea009c122d0ee6bb3784666a5edfcc",
+    "npm_package_devDependencies__types_node": "^14.14.25",
+    "USER": "kamil",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.16.1 linux x64",
+    "npm_config_bin_links": "true",
+    "npm_node_execpath": "/home/kamil/.nvm/versions/node/v12.16.1/bin/node",
+    "npm_package_devDependencies__types_react_datepicker": "^3.1.5",
+    "npm_package_scripts_ts": "tsc --noEmit --incremental",
+    "npm_config_init_version": "1.0.0",
+    "WT_PROFILE_ID": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "SHLVL": "1",
+    "HOME": "/home/kamil",
+    "OLDPWD": "/home/kamil/projects/futuretrap/packages",
+    "LESS": "-R",
+    "npm_package_devDependencies__typescript_eslint_parser": "^4.15.0",
+    "NVM_BIN": "/home/kamil/.nvm/versions/node/v12.16.1/bin",
+    "npm_package_devDependencies_eslint_config_prettier": "^7.2.0",
+    "ZSH": "/home/kamil/.oh-my-zsh",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "NVM_INC": "/home/kamil/.nvm/versions/node/v12.16.1/include/node",
+    "npm_config_init_license": "MIT",
+    "PAGER": "less",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_config_version_tag_prefix": "v",
+    "npm_package_dependencies_redux_thunk": "^2.3.0",
+    "npm_package_devDependencies__types_react_redux": "^7.1.16",
+    "npm_package_dependencies_dayjs": "^1.10.4",
+    "WSL_DISTRO_NAME": "Ubuntu",
+    "npm_package_description": "First, run the development server:",
+    "npm_package_devDependencies_typescript": "^4.1.3",
+    "npm_package_dependencies__apollo_client": "^3.3.11",
+    "NVM_DIR": "/home/kamil/.nvm",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_devDependencies__types_react_dom": "^17.0.0",
+    "npm_package_dependencies_next_google_fonts": "^1.2.1",
+    "npm_package_devDependencies_prettier": "^2.2.1",
+    "npm_package_scripts_dev": "next dev",
+    "LOGNAME": "kamil",
+    "npm_package_dependencies_react_datepicker": "^3.5.0",
+    "WSL_INTEROP": "/run/WSL/11_interop",
+    "NAME": "DESKTOP-KGRBOET",
+    "_": "/home/kamil/.nvm/versions/node/v12.16.1/bin/yarn",
+    "npm_package_dependencies_redux_devtools_extension": "^2.13.8",
+    "npm_package_private": "true",
+    "npm_package_devDependencies__typescript_eslint_eslint_plugin": "^4.15.0",
+    "npm_package_scripts_lint": "eslint ./components/** ./libs/** ./pages/** ./types/**",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "TERM": "xterm-256color",
+    "npm_package_devDependencies__types_lodash": "^4.14.168",
+    "npm_package_scripts_start": "next start",
+    "npm_config_ignore_scripts": "",
+    "npm_package_devDependencies__types_classnames": "^2.2.11",
+    "npm_package_dependencies_axios": "^0.21.1",
+    "PATH": "/tmp/yarn--1614936314462-0.7455722563162013:/home/kamil/projects/futuretrap/packages/frontend/node_modules/.bin:/home/kamil/.config/yarn/link/node_modules/.bin:/home/kamil/.yarn/bin:/home/kamil/.nvm/versions/node/v12.16.1/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/kamil/.nvm/versions/node/v12.16.1/lib/node_modules/npm/bin/node-gyp-bin:/home/kamil/.nvm/versions/node/v12.16.1/bin/node_modules/npm/bin/node-gyp-bin:/home/kamil/.nvm/versions/node/v12.16.1/bin:/home/kamil/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/ProgramData/Boxstarter:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/d/Program Files/JetBrains/PhpStorm 2018.2.1/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/tools/php72:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/angel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/angel/AppData/Roaming/Composer/vendor/bin:/mnt/c/tools:/mnt/c/Users/angel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/angel/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Users/angel/AppData/Roaming/npm:/mnt/c/Users/angel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/angel/AppData/Local/Keybase/",
+    "NODE": "/home/kamil/.nvm/versions/node/v12.16.1/bin/node",
+    "npm_package_devDependencies__types_react_select": "^4.0.13",
+    "npm_package_name": "cowbean",
+    "WT_SESSION": "9f6623ef-0b02-46d8-a3d3-a8fba720be55",
+    "npm_package_dependencies_react_redux": "^7.2.2",
+    "DISPLAY": "172.28.48.1:0.0",
+    "LANG": "C.UTF-8",
+    "npm_package_devDependencies_eslint": "^7.19.0",
+    "npm_package_dependencies_redux": "^4.0.5",
+    "npm_package_dependencies_react_dom": "17.0.1",
+    "npm_package_dependencies_deepmerge": "^4.2.2",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "npm_lifecycle_script": "next dev",
+    "npm_package_devDependencies_eslint_plugin_css_modules": "^2.11.0",
+    "npm_package_dependencies_next_redux_wrapper": "^6.0.2",
+    "npm_config_version_git_message": "v%s",
+    "SHELL": "/usr/bin/zsh",
+    "npm_lifecycle_event": "dev",
+    "npm_package_devDependencies__types_react": "^17.0.1",
+    "npm_package_version": "0.1.0",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"dev\"]}",
+    "npm_package_dependencies_less": "^4.1.1",
+    "npm_package_dependencies_graphql": "^15.5.0",
+    "npm_package_dependencies_aws_amplify": "^3.3.18",
+    "npm_package_scripts_build": "next build",
+    "npm_package_dependencies_lodash": "^4.17.21",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "npm_package_devDependencies_eslint_plugin_react": "^7.22.0",
+    "npm_package_dependencies_classnames": "^2.2.6",
+    "npm_config_strict_ssl": "true",
+    "npm_package_devDependencies_eslint_plugin_prettier": "^3.3.1",
+    "npm_package_dependencies_react_select": "^4.1.0",
+    "PWD": "/home/kamil/projects/futuretrap/packages/frontend",
+    "npm_execpath": "/home/kamil/.nvm/versions/node/v12.16.1/lib/node_modules/yarn/bin/yarn.js",
+    "NVM_CD_FLAGS": "-q",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "npm_package_dependencies_next": "10.0.6",
+    "HOSTTYPE": "x86_64",
+    "INIT_CWD": "/home/kamil/projects/futuretrap/packages/frontend",
+    "WSLENV": "WT_SESSION::WT_PROFILE_ID",
+    "npm_package_dependencies_react": "17.0.1",
+    "npm_package_dependencies_nprogress": "^0.2.0",
+    "NODE_ENV": "development",
+    "__NEXT_PROCESSED_ENV": "true",
+    "NEXT_PUBLIC_API_URL": "http://localhost:1337"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 4096,
+      "hard": 4096
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 59990,
+      "hard": 59990
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2",
+    "/lib/x86_64-linux-gnu/libnss_files.so.2",
+    "/lib/x86_64-linux-gnu/libnss_dns.so.2",
+    "/lib/x86_64-linux-gnu/libresolv.so.2"
+  ]
+}

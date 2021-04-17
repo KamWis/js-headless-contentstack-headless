@@ -1,0 +1,64 @@
+.narrowColumn {
+  width: 24rem;
+  margin: 0 auto;
+}
+
+.centerTitle {
+  text-align: center;
+}
+
+.fieldGroup {
+  margin-bottom: 2rem;
+}
+
+.fieldGroup button {
+  margin-bottom: 1rem;
+}
+
+.datePicker {
+  margin: 0 0.5rem;
+  width: 50%;
+}
+
+.fieldMargin {
+  margin: 0 -0.5rem;
+  display: flex;
+}
+
+.termsLink {
+  margin-left: 0.25rem;
+  text-decoration: underline;
+}
+
+.disardChangesButton {
+  color: var(--error-80);
+}
+
+@media screen and (max-width: 768px) {
+  .narrowColumn {
+    width: 100%;
+  }
+
+  .narrowColumn :global(.react-datepicker-popper) {
+    position: fixed !important;
+    transform: translate3d(0, -50%, 0) !important;
+    top: 50% !important;
+    left: calc(50% - 163px) !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .narrowColumn :global(.react-datepicker__triangle) {
+    display: none;
+  }
+
+  .narrowColumn :global(.react-datepicker__tab-loop) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: rgb(0 0 0 / 50%);
+  }
+}

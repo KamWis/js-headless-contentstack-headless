@@ -1,0 +1,58 @@
+.backLink {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1.5rem 0;
+  max-width: fit-content;
+}
+
+.backLink svg {
+  margin-top: 1px;
+  margin-right: 0.75rem;
+}
+
+.flexColumns {
+  display: flex;
+}
+
+.category {
+  letter-spacing: 0.02em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 1.75rem;
+}
+
+.votesCounter {
+  padding-right: 1.5rem;
+  padding-left: 0;
+  min-width: 6.3125rem;
+}
+
+.description {
+  margin-top: 1.5rem;
+  line-height: 2rem;
+  font-size: 1.125rem;
+}
+
+.meta {
+  border-top: 1px solid var(--gray-40);
+  padding: 1.25rem 0;
+  margin-top: 1.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .voteCounterContainer,
+  .postContent {
+    width: 100%;
+  }
+
+  .voteCounterContainer {
+    margin-bottom: 1rem;
+  }
+
+  .flexColumns {
+    flex-wrap: wrap;
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.avatarContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  margin-bottom: 1rem;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.avatar image {
+  width: 2.5rem;
+}
+
+.levelBorder {
+  top: 3.5rem;
+  bottom: 0rem;
+  border-left: 2.5px solid var(--gray-20);
+  width: 2.5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.contentContainer {
+  padding-left: 1.5rem;
+}
+
+.actionRow {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.actionRow span {
+  margin-bottom: 2px;
+}
+
+.actionRow button {
+  margin-right: 1.5rem;
+}
+
+.actionRow button svg {
+  margin-right: 0.5rem;
+}
+
+.actionRow button svg path {
+  fill: var(--main-blue);
+}
+
+.responses {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contentContainer {
+    padding-left: 0.75rem;
+  }
+}

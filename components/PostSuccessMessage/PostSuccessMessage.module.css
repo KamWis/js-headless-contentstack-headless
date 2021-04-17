@@ -1,0 +1,40 @@
+.icon {
+  border-radius: 2rem;
+  background-color: var(--success-20);
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrapper p {
+  width: 400px;
+  text-align: center;
+}
+
+.buttonsWrapper {
+  margin-top: 1.5rem;
+  width: 400px;
+  display: flex;
+}
+
+.buttonsWrapper button:first-child {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper p,
+  .buttonsWrapper {
+    width: 100%;
+  }
+}

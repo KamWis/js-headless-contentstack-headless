@@ -1,0 +1,6 @@
+.section {
+  padding: 1rem 0em;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

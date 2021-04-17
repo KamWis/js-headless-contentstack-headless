@@ -1,0 +1,47 @@
+.label {
+  padding: 0.35rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.warning {
+  background-color: var(--warning-20);
+  color: var(--warning-80);
+}
+
+.warning.reversed {
+  background-color: var(--warning-80);
+  color: var(--warning-20);
+}
+
+.inactive {
+  background-color: var(--gray-20);
+  color: var(--gray-80);
+}
+
+.inactive.reversed {
+  background-color: var(--gray-80);
+  color: var(--gray-20);
+}
+
+.active {
+  background-color: var(--main-blue);
+  color: white;
+}
+
+.active.reversed {
+  background-color: var(--blue-20);
+  color: var(--main-blue);
+}
+
+.error {
+  background-color: var(--error-80);
+  color: var(--error-20);
+}
+
+.error.reversed {
+  background-color: var(--error-20);
+  color: var(--error-80);
+}

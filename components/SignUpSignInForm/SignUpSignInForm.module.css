@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 2rem 2rem;
+  min-width: 400px;
+}
+
+.header {
+  margin-top: 0;
+}
+
+.button {
+  margin: 1rem 0 0 0;
+  width: 100%;
+}
+
+.error {
+  color: var(--error-80);
+}

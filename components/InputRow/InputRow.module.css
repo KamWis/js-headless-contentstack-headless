@@ -1,0 +1,18 @@
+.inputRow {
+  margin-top: 1rem;
+}
+
+.inputRow .errorMessage {
+  color: var(--error-80);
+  font-size: 0.75rem;
+}
+
+.inputRow label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.valueCount {
+  font-size: 0.75rem;
+  color: var(--gray-80);
+}

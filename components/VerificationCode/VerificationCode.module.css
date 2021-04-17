@@ -1,0 +1,23 @@
+.button {
+  margin: 1rem 0 0 0;
+  width: 100%;
+}
+
+.error {
+  color: var(--error-80);
+  max-width: 309px;
+  margin-top: 0.5rem;
+}
+
+.inputRow {
+  display: inline-block;
+  margin: 1.5rem 0 1rem;
+}
+
+.inputRow + .inputRow {
+  margin-left: 0.5rem;
+}
+
+.inputRow input {
+  width: 2.81rem;
+}
